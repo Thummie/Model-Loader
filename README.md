@@ -7,8 +7,8 @@ To load models you can simply use exports['Model-Loader']:RequestModelHash(model
 # Load animation dictionary
 To load animation dictionaries you can simply use exports['Model-Loader']:RequestAnimDict(animationdict)
 
-#animation set
+# animation set
 To set animations you can simply use exports['Model-Loader']:RequestAnimSetEvent(animsetevent)
 
-#Reset animation set
+# Reset animation set
 To reset the animation u can simply use exports['Model-Loader']:ResetAnimSet()
