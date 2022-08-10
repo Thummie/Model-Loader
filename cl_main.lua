@@ -12,7 +12,7 @@ exports('RequestModelHash', RequestModelHash)
 function RequestAnimationDict(AnimDict)
     RequestAnimDict(AnimDict)
     while not HasAnimDictLoaded(AnimDict) do
-        Citizen.Wait(1)
+        Wait(1)
     end
 end
 
@@ -22,7 +22,7 @@ exports('RequestAnimDict', RequestAnimationDict)
 function RequestAnimSetEvent(AnimSet)
     RequestAnimSet(AnimSet)
     while not HasAnimSetLoaded(AnimSet) do
-        Citizen.Wait(0)
+        Wait(0)
     end
 end
 
