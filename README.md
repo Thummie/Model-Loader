@@ -12,3 +12,6 @@ To set animations you can simply use exports['Model-Loader']:RequestAnimSetEvent
 
 # Reset animation set
 To reset the animation u can simply use exports['Model-Loader']:ResetAnimSet()
+
+# Load particles
+To load any particle u can simply use exports['Model-Loader']:LoadParticle(particle)
